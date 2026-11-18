@@ -1,0 +1,38 @@
+{
+  "name": "hasty-cli",
+  "version": "0.1.0",
+  "description": "Hasty — a dark-red terminal AI coding agent with hands. Bring your own API key.",
+  "type": "module",
+  "bin": {
+    "hasty": "bin/hasty.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "docs",
+    "examples",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20.11"
+  },
+  "scripts": {
+    "start": "node bin/hasty.js",
+    "test": "node --test",
+    "test:watch": "node --test --watch"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "cli",
+    "coding-agent",
+    "terminal",
+    "llm",
+    "mcp",
+    "github"
+  ],
+  "license": "MIT",
+  "author": "Cash",
+  "preferGlobal": true
+}
